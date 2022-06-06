@@ -1,0 +1,46 @@
+/*
+    place extra stylesheet here
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.ImageContainer img {
+    border: solid 2px #999;
+}
+
+.header {
+    position: fixed;
+    background: lightseagreen;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.header .nav-bar ul li{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    right: 10px;
+}
+.header .nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 11px 10px;
+
+}
+.header .nav-bar ul li a:hover{
+    transition: .5s;
+    color: white;
+    background-color:#003147;
+}
+.header h2{
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
